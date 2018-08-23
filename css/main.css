@@ -97,8 +97,31 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.bordercalc {
+  border: 1px solid #73c19a;
+  font-size: 20px;
+  font-weight: bold;
+}
+.bordercalc2 {
+  border-top: 1px solid #73c19a;
+  border-bottom: 1px solid #73c19a;
+  font-size: 20px;
+  font-weight: bold;
+}
+.result {
+  font-size: 30px;
+  font-weight: bold;
+  background: inherit;
+  border: none;
+}
 
-
+li:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  border: none;
+  background: grey;
+  z-index:2;
+}
 
 
 
